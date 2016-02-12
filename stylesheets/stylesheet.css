@@ -100,6 +100,18 @@ p {
 footer p {
   color: #f2f2f2;
 }
+footer .info {
+    list-style-type: none;
+    color: #f2f2f2;
+}
+footer .info a {
+    text-decoration: none;
+}
+footer .sub_text {
+    color: #919191;
+    font-size: 12px;
+    text-align: right;
+}
 
 a {
   text-decoration: none;
@@ -139,13 +151,6 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
