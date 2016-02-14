@@ -67,8 +67,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -271,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 850px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -293,15 +294,10 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 5px 10px 5px 10px;
 }
 
 #project_title {
